@@ -1,0 +1,40 @@
+.header {
+  background-color: #1e90ff;
+  border: none;
+  font-family: "Segoe UI";
+}
+
+.header .navbar-header > a {
+  color: #2f3542;
+}
+
+.header .navbar-collapse .nav-links > li > a {
+  color: #2f3542;
+}
+
+.header .navbar-collapse .nav-links > li > a:hover {
+  color: white;
+}
+
+.jumbotron {
+  background: none;
+  margin-bottom: 0;
+}
+
+.jumbotron p {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.jumbotron h1 {
+  font-family: "Roboto Slab", serif;
+}
+
+.home-box h2 {
+  font-family: "Segoe UI";
+}
+
+.home-box p {
+  font-family: "Slabo 27px", serif;
+  font-size: 16px;
+}
+/*# sourceMappingURL=home.css.map */

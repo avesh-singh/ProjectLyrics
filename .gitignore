@@ -121,6 +121,7 @@ AutoTest.Net/
 
 # Web workbench (sass)
 .sass-cache/
+*.css.map
 
 # Installshield output folder
 [Ee]xpress/
@@ -259,3 +260,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+

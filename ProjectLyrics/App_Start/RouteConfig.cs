@@ -16,7 +16,7 @@ namespace ProjectLyrics
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Naruto", action = "Layout", id = UrlParameter.Optional }
             );
         }
     }
