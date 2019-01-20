@@ -27,6 +27,10 @@ namespace ProjectLyrics
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/css/home.css"));
+            
+            bundles.Add(new ScriptBundle("~/bundles/angularjs").Include(
+                "~/Scripts/angular.min.js"
+            ));
         }
     }
 }

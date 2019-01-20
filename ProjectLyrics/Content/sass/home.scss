@@ -1,40 +1,60 @@
 $Heading-text:'Roboto Slab',serif;
 $Header-text:'Segoe UI';
 $Para-text:'Slabo 27px', serif;
-.header{
-    background-color:#1e90ff;
-    border: none;
-    font-family: $Header-text;
-    .navbar-header > a{
-        color:#2f3542;
-    }
-    .navbar-collapse{
-        .nav-links > li>a{
+.home-view{
+    .header{
+        background-color:#1e90ff;
+        border: none;
+        font-family: $Header-text;
+        .navbar-header > a{
             color:#2f3542;
         }
-        .nav-links > li>a:hover{
-                color: white;
+        .navbar-collapse{
+            .nav-links > li>a{
+                color:#2f3542;
+            }
+            .nav-links > li>a:hover{
+                    color: white;
+            }
+            
+        }
+        .search-container{
+                background-color: #2f3542 !important;
+                height: 20px;
+                display: inline-block;
+                
+            }
+    }
+    .jumbotron{
+        background: none;
+        margin-bottom: 0;
+        p{
+            font-family: 'ZCOOL KuaiLe', cursive;
+        }
+        h1{
+            font-family: $Heading-text;
+        }
+        
+    }
+
+    .home-box{
+        h2{
+            font-family: $Header-text;
+        }
+        p{
+            font-family: $Para-text;
+            font-size: 16px;
         }
     }
-}
-.jumbotron{
-    background: none;
-    margin-bottom: 0;
-    p{
-        font-family: 'ZCOOL KuaiLe', cursive;
-    }
-    h1{
-        font-family: $Heading-text;
-    }
-    
-}
-
-.home-box{
-    h2{
-        font-family: $Header-text;
-    }
-    p{
-        font-family: $Para-text;
-        font-size: 16px;
-    }
+.search-box{
+                    max-width: 30%;
+                    // display: inline-block;
+                    float: right;
+                    /* position: relative; */
+                    /* top: 10px; */
+                    padding: 5px;
+                    line-height: 2.5em;
+                    border-radius: 1.25em;
+                    font-family: $Para-text;
+                }
 }

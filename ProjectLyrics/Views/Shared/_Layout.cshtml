@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
+<body class="home-view">
     <div class="navbar navbar-inverse navbar-fixed-top header">
         <div class="container">
             <div class="navbar-header">
@@ -23,9 +24,11 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
-                <ul class="">
-
-                </ul>
+                <div class="search-container">
+                    <input class="search-box" type="text" placeholder="Search anime">
+                    <a href="javascript:void(0)" class="search-but"><i class="fas fa-search"></i></a>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -39,6 +42,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angularjs")
     @RenderSection("scripts", required: false)
 </body>
 </html>
